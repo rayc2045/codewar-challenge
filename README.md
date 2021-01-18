@@ -1,1 +1,1 @@
-# codewar-challenge
+[![Photo](https://raw.githubusercontent.com/rayc2045/codewar-challenge/master/cover.png)](https://www.codewars.com/)
