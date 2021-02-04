@@ -1,2 +1,2 @@
-[![Photo](https://raw.githubusercontent.com/rayc2045/codewar-challenge/master/cover.png)](https://www.codewars.com/)
-![Photo](https://raw.githubusercontent.com/rayc2045/codewars-challenge/master/Training%20Manual.png)
+[![Photo](https://raw.githubusercontent.com/rayc2045/codewar-challenge/master/img/cover.png)](https://www.codewars.com/)
+![Photo](https://raw.githubusercontent.com/rayc2045/codewars-challenge/master/img/Training%20Manual.png)
