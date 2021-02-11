@@ -28,16 +28,12 @@ function cakes(recipe, available) {
     let counts = 0;
 
     for (const i in recipeKeys) {
-      if (
-        ingredients.hasOwnProperty(recipeKeys[i]) &&
-        ingredients[recipeKeys[i]] - recipe[recipeKeys[i]] >= 0
-      )
+      if (ingredients.hasOwnProperty(recipeKeys[i]) && ingredients[recipeKeys[i]] - recipe[recipeKeys[i]] >= 0)
         counts += 1;
     }
 
     if (counts === recipeKeys.length) {
-      counts = 0;
-      times += 1;
+      [counts, times] = [0, times + 1];
       for (const i in recipeKeys) ingredients[recipeKeys[i]] -= recipe[recipeKeys[i]];
     } else {
       isContinue = false;
