@@ -10,7 +10,7 @@ isIsogram("isIsogram") // false
 isIsogram("") // true
 */
 
-function isIsogram(str){
+function isIsogram(str) {
   if (!str.length) return true;
 
   str = str.toLowerCase();
@@ -19,9 +19,7 @@ function isIsogram(str){
   const sortedArr = array.slice().sort();
 
   for (let i = 0; i < array.length; i++) {
-    if (sortedArr[i + 1] === sortedArr[i]) {
-      return false;
-    }
+    if (sortedArr[i + 1] === sortedArr[i]) return false;
   }
   return true;
 }
@@ -29,7 +27,7 @@ function isIsogram(str){
 // Alternates
 
 function isIsogram(str){ 
-  return !/(\w).*\1/i.test(str)
+  return !/(\w).*\1/i.test(str);
 }
 
 function isIsogram(str){

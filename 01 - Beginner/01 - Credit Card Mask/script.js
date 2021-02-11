@@ -13,15 +13,10 @@ maskify(                "") ==                 ""
 function maskify(cc) {
   if (ccString.length > 4) {
     let maskedString = '';
-  	
-  	for (let i = 0; i< ccString.length - 4; i++) {
-    	maskedString += '#';
-    }
-    
+    for (let i = 0; i < ccString.length - 4; i++) maskedString += '#'
     maskedString += ccString.slice(-4);
     return maskedString;
-  } 
-
+  }
   return ccString;
 }
 

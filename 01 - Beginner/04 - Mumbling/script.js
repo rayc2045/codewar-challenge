@@ -16,7 +16,7 @@ assertEquals(accum("HbideVbxncC") // "H-Bb-Iii-Dddd-Eeeee-Vvvvvv-Bbbbbbb-Xxxxxxx
 */
 
 function accum(s) {
-	return s.split('').map((item, idx) => {
+  return s.split('').map((item, idx) => {
     let text = item.toUpperCase();
     for (let i = 0; i < idx; i++) {
       text += item.toLowerCase();
