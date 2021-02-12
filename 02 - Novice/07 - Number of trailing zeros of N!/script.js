@@ -17,7 +17,7 @@ zeros(6) // 1
 zeros(30) // 7
 */
 
-// Find how many times 5 appears
+// Find how many times 5 appears as a factor
 function zeros(n) {
   let numOfZeros = 0;
   while (n > 0) {
