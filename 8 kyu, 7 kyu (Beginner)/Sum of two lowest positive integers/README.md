@@ -13,7 +13,7 @@ Sample Tests:
     sumTwoSmallestNumbers([23, 71, 33, 82, 1]) // 2
     sumTwoSmallestNumbers([52, 76, 14, 12, 4]) // 1
 
-**Solution**
+### Solution
 
 ```js
 function sumTwoSmallestNumbers(numbers) {
@@ -22,7 +22,7 @@ function sumTwoSmallestNumbers(numbers) {
 }
 ```
 
-**Alternates**
+### Alternates
 
 ```js
 function sumTwoSmallestNumbers(numbers) {

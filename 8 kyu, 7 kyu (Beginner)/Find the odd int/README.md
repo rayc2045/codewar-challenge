@@ -13,7 +13,7 @@ Sample Tests:
     findOdd([1, 1, 1, 1, 1, 1, 10, 1, 1, 1, 1]) // 10
     findOdd([5, 4, 3, 2, 1, 5, 4, 3, 2, 10, 10]) // 1
 
-**Solution**
+### Solution
 
 ```js
 function findOdd(A) {
@@ -29,7 +29,7 @@ function findOdd(A) {
 }
 ```
 
-**Alternates**
+### Alternates
 
 ```js
 function findOdd(A) {

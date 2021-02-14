@@ -9,7 +9,7 @@ Sample Tests:
     findShort("bitcoin take over the world maybe who knows perhaps"), 3);
     findShort("turns out random test cases are easier than writing out basic ones"), 3);
 
-**Solution**
+### Solution
 
 ```js
 function findShort(s){
@@ -17,7 +17,7 @@ function findShort(s){
 }
 ```
 
-**Alternates**
+### Alternates
 
 ```js
 function findShort(s){

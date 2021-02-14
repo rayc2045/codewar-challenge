@@ -17,7 +17,7 @@ Examples:
     zeros(6) // 1
     zeros(30) // 7
 
-**Solution**
+### Solution
 
 ```js
 // Find how many times 5 appears as a factor
@@ -32,7 +32,7 @@ function zeros(n) {
 }
 ```
 
-**Alternates**
+### Alternates
 
 ```js
 function zeros(n) {

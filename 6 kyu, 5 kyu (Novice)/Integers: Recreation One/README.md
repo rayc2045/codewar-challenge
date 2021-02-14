@@ -12,7 +12,7 @@ Examples:
     listSquared(42, 250) // [[42, 2500], [246, 84100]])
     listSquared(250, 500) // [[287, 84100]])
 
-**Solution**
+### Solution
 
 ```js
 // 給兩個隨機數字，輸出兩數間因數的平方加總開根號為整數的數值
@@ -33,7 +33,7 @@ function listSquared(m, n) {
 }
 ```
 
-**Alternates**
+### Alternates
 
 ```js
 const listSquared = (m, n) => {

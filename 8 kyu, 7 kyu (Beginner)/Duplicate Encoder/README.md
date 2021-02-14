@@ -9,7 +9,7 @@ Examples
     "Success"  =>  ")())())"
     "(( @"     =>  "))((" 
 
-**Solution**
+### Solution
 
 ```js
 function duplicateEncode(word) {
@@ -26,7 +26,7 @@ function duplicateEncode(word) {
 }
 ```
 
-**Alternates**
+### Alternates
 
 ```js
 function duplicateEncode(word) {

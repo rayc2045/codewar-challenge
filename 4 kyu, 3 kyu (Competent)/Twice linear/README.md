@@ -24,7 +24,7 @@ Sample Tests:
     dblLinear(50) // 175
     dblLinear(100) // 447
 
-**Solution**
+### Solution
 
 ```js
 function dblLinear(n) {
@@ -48,7 +48,7 @@ function dblLinear(n) {
 }
 ```
 
-**Alternates**
+### Alternates
 
 ```js
 function dblLinear(n) {

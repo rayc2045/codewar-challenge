@@ -18,7 +18,7 @@ Sample Tests:
     accum("EvidjUnokmM") // "E-Vv-Iii-Dddd-Jjjjj-Uuuuuu-Nnnnnnn-Oooooooo-Kkkkkkkkk-Mmmmmmmmmm-Mmmmmmmmmmm");
     accum("HbideVbxncC") // "H-Bb-Iii-Dddd-Eeeee-Vvvvvv-Bbbbbbb-Xxxxxxxx-Nnnnnnnnn-Cccccccccc-Ccccccccccc");
 
-**Solution**
+### Solution
 
 ```js
 function accum(s) {
@@ -32,7 +32,7 @@ function accum(s) {
 }
 ```
 
-**Alternates**
+### Alternates
 
 ```js
 function accum(s) {

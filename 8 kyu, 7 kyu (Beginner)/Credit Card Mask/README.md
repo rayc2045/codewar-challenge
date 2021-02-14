@@ -9,7 +9,7 @@ Your task is to write a function maskify, which changes all but the last four ch
     maskify(               "1") ==                "1"
     maskify(                "") ==                 ""
 
-**Solution**
+### Solution
 
 ```js
 function maskify(cc) {
@@ -23,7 +23,7 @@ function maskify(cc) {
 }
 ```
 
-**Alternates**
+### Alternates
 
 ```js
 function maskify(cc) {

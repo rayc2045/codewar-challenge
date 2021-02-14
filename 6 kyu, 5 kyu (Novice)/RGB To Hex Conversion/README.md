@@ -15,7 +15,7 @@ The following are examples of expected output values:
     rgb(300,255,255) // returns 'FFFFFF'
     rgb(173,255,47) // returns 'ADFF2F'
 
-**Solution**
+### Solution
 
 ```js
 function rgb(r, g, b) {
@@ -31,7 +31,7 @@ function rgb(r, g, b) {
 }
 ```
 
-**Alternates**
+### Alternates
 
 ```js
 function rgb(r, g, b) {

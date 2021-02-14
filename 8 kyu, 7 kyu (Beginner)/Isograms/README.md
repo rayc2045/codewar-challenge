@@ -11,7 +11,7 @@ Sample Tests:
     isIsogram("isIsogram") // false
     isIsogram("") // true
 
-**Solution**
+### Solution
 
 ```js
 function isIsogram(str) {
@@ -27,7 +27,7 @@ function isIsogram(str) {
 }
 ```
 
-**Alternates**
+### Alternates
 
 ```js
 function isIsogram(str) {

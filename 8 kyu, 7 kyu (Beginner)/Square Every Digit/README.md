@@ -10,7 +10,7 @@ Sample Tests:
 
     squareDigits(9119) // 811181
 
-**Solution**
+### Solution
 
 ```js
 function squareDigits(num){

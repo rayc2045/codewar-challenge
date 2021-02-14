@@ -18,7 +18,7 @@ Examples:
       {sugar: 500, flour: 2000, milk: 2000}
     );
 
-**Solution**
+### Solution
 
 ```js
 function cakes(recipe, available) {
@@ -46,7 +46,7 @@ function cakes(recipe, available) {
 }
 ```
 
-**Alternates**
+### Alternates
 
 ```js
 function cakes(recipe, available) {

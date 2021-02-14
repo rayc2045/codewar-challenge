@@ -20,7 +20,7 @@ Sample Tests:
     factorial(9) // '362880'
     factorial(15) // '1307674368000'
 
-**Solution**
+### Solution
 
 ```js
 function factorial(n) {

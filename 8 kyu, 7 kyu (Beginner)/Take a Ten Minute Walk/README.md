@@ -11,7 +11,7 @@ Some test cases for you...
     isValidWalk(['w']), 'should return false'
     isValidWalk(['n','n','n','s','n','s','n','s','n','s']), 'should return false'
 
-**Solution**
+### Solution
 
 ```js
 function isValidWalk(walk) {
@@ -28,7 +28,7 @@ function isValidWalk(walk) {
 }
 ```
 
-**Alternates**
+### Alternates
 
 ```js
 function isValidWalk(walk) {

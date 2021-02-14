@@ -15,7 +15,7 @@ Sample Tests:
     spinWords("Just kidding there is still one more"); // "Just gniddik ereht is llits onmore");
     spinWords("Seriously this is the last one"); // "ylsuoireS this is the last one"
 
-**Solution**
+### Solution
 
 ```js
 function spinWords(str) {
@@ -26,7 +26,7 @@ function spinWords(str) {
 }
 ```
 
-**Alternates**
+### Alternates
 
 ```js
 function spinWords(string) {

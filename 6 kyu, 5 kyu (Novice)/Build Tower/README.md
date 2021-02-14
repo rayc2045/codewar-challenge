@@ -40,7 +40,7 @@ Sample Tests:
     towerBuilder(2); // [" * ","***"]);
     towerBuilder(3); // ["  *  "," *** ","*****"]);
 
-**Solution**
+### Solution
 
 ```js
 function towerBuilder(nFloors) {
@@ -58,7 +58,7 @@ function towerBuilder(nFloors) {
 }
 ```
 
-**Alternates**
+### Alternates
 
 ```js
 function towerBuilder(nFloors) {

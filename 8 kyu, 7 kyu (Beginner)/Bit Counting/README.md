@@ -12,7 +12,7 @@ Sample Tests:
     countBits(9) // 2
     countBits(10) // 2
 
-**Solution**
+### Solution
 
 ```js
 function countBits(n) {
@@ -23,7 +23,7 @@ function countBits(n) {
 }
 ```
 
-**Alternates**
+### Alternates
 
 ```js
 const countBits = (n) => n.toString(2).replace(/0/g, '').length;
