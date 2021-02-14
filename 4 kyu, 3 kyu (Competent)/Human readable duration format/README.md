@@ -29,7 +29,7 @@ Sample Tests:
     formatDuration(3600) // "1 hour"
     formatDuration(3662) // "1 hour, 1 minute and 2 seconds"
 
-**Solution**
+## Solution
 
 ```js
 function formatDuration(seconds) {
@@ -59,7 +59,7 @@ function formatDuration(seconds) {
 }
 ```
 
-**Alternates**
+## Alternates
 
 ```js
 const formatDuration = (s) => s === 0 ? 'now' :
