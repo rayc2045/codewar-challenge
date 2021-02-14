@@ -1,4 +1,5 @@
-/*
+# Build Tower
+
 Build Tower by the following given argument:
 number of floors (integer and always greater than 0).
 
@@ -15,28 +16,33 @@ Lua: returns a Table;
 Have fun!
 
 for example, a tower of 3 floors looks like below
-[
-  '  *  ', 
-  ' *** ', 
-  '*****'
-]
+
+    [
+      '  *  ', 
+      ' *** ', 
+      '*****'
+    ]
 
 and a tower of 6 floors looks like below
-[
-  '     *     ', 
-  '    ***    ', 
-  '   *****   ', 
-  '  *******  ', 
-  ' ********* ', 
-  '***********'
-]
+
+    [
+      '     *     ', 
+      '    ***    ', 
+      '   *****   ', 
+      '  *******  ', 
+      ' ********* ', 
+      '***********'
+    ]
 
 Sample Tests:
-towerBuilder(1); // ["*"]);
-towerBuilder(2); // [" * ","***"]);
-towerBuilder(3); // ["  *  "," *** ","*****"]);
-*/
 
+    towerBuilder(1); // ["*"]);
+    towerBuilder(2); // [" * ","***"]);
+    towerBuilder(3); // ["  *  "," *** ","*****"]);
+
+**Solution**
+
+```js
 function towerBuilder(nFloors) {
   let towerArr = [];
   for (let i = 1; i <= nFloors; i++) towerArr.push(i * 2 - 1);
@@ -50,9 +56,11 @@ function towerBuilder(nFloors) {
     return (item = space + stars + space);
   });
 }
+```
 
-// Alternates
+**Alternates**
 
+```js
 function towerBuilder(nFloors) {
   var tower = [];
   for (var i = 0; i < nFloors; i++) {
@@ -64,10 +72,13 @@ function towerBuilder(nFloors) {
   }
   return tower;
 }
+```
 
+```js
 function towerBuilder(n) {
   return Array.from({ length: n }, function (v, k) {
     const spaces = ' '.repeat(n - k - 1);
     return spaces + '*'.repeat(k + k + 1) + spaces;
   });
 }
+```
