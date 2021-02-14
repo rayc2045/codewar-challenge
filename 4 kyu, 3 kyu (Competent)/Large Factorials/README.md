@@ -1,4 +1,5 @@
-/*
+# Large Factorials
+
 In mathematics, the factorial of integer n is written as n!. It is equal to the product of n and every integer preceding it. For example: 5! = 1 x 2 x 3 x 4 x 5 = 120
 
 Your mission is simple: write a function that takes an integer n and returns the value of n!.
@@ -7,20 +8,21 @@ You are guaranteed an integer argument. For any values outside the non-negative 
 
 For more on factorials, see http://en.wikipedia.org/wiki/Factorial
 
-NOTES:
+NOTE:
 
-  The use of BigInteger or BigNumber functions has been disabled, this requires a complex solution
-
-  I have removed the use of require in the javascript language.
+- The use of BigInteger or BigNumber functions has been disabled, this requires a complex solution
+- I have removed the use of require in the javascript language.
 
 Sample Tests:
 
-  factorial(1) // '1'
-  factorial(5) // '120'
-  factorial(9) // '362880'
-  factorial(15) // '1307674368000'
-*/
+    factorial(1) // '1'
+    factorial(5) // '120'
+    factorial(9) // '362880'
+    factorial(15) // '1307674368000'
 
+**Solution**
+
+```js
 function factorial(n) {
   // 遞歸導致結果以科學計數呈現
   // if (n < 2) return '1';
@@ -40,3 +42,4 @@ function factorial(n) {
   }
   return result.reverse().join('');
 }
+```
