@@ -54,7 +54,7 @@ function dirReduc(arr) {
   let dirs = [];
 
   arr
-    .join()
+    .join() // String
     .replace(/NORTH,SOUTH/g, '')
     .replace(/SOUTH,NORTH/g, '')
     .replace(/EAST,WEST/g, '')
@@ -65,10 +65,10 @@ function dirReduc(arr) {
     });
 
   if (
-    dirs.join(',').includes('NORTH,SOUTH') ||
-    dirs.join(',').includes('SOUTH,NORTH') ||
-    dirs.join(',').includes('EAST,WEST') ||
-    dirs.join(',').includes('WEST,EAST')
+    dirs.join().includes('NORTH,SOUTH') ||
+    dirs.join().includes('SOUTH,NORTH') ||
+    dirs.join().includes('EAST,WEST') ||
+    dirs.join().includes('WEST,EAST')
   )
     return dirReduc(dirs);
 
@@ -107,7 +107,7 @@ function dirReduc(arr) {
     WEST: 'EAST',
   };
 
-  return arr.reduce(function (dirs, dir) {
+  return arr.reduce(function(dirs, dir) {
     if (dirs[dirs.length - 1] === opposite[dir]) dirs.pop();
     else dirs.push(dir);
     return dirs;
