@@ -1,21 +1,41 @@
-function dblLinear(n) {
-  let numbers = [1];
-  let [y, z] = [0, 0];
+function dirReduc(arr) {
+  let dirs = [];
 
-  while (numbers.length <= n) {
-    let [a, b] = [numbers[y] * 2 + 1, numbers[z] * 3 + 1];
-    if (a > b) {
-      numbers.push(b);
-      z += 1;
-    } else if (a < b) {
-      numbers.push(a);
-      y += 1;
-    } else {
-      numbers.push(a);
-      [y, z] = [y + 1, z + 1];
-    }
-  }
-  return numbers[n];
+  arr
+    .join()
+    .replace(/NORTH,SOUTH/g, '')
+    .replace(/SOUTH,NORTH/g, '')
+    .replace(/EAST,WEST/g, '')
+    .replace(/WEST,EAST/g, '')
+    .split(',')
+    .forEach((item) => {
+      if (item.length) dirs.push(item);
+    });
+
+  if (
+    dirs.join(',').includes('NORTH,SOUTH') ||
+    dirs.join(',').includes('SOUTH,NORTH') ||
+    dirs.join(',').includes('EAST,WEST') ||
+    dirs.join(',').includes('WEST,EAST')
+  )
+    return dirReduc(dirs);
+
+  return dirs;
 }
 
-console.log(dblLinear(20));
+// console.log(
+//   dirReduc(['NORTH', 'SOUTH', 'SOUTH', 'EAST', 'WEST', 'NORTH', 'WEST'])
+// );
+// // ["WEST"]
+
+// console.log(dirReduc(
+//   ["NORTH", "WEST", "SOUTH", "EAST"]
+// ))
+// // ["NORTH", "WEST", "SOUTH", "EAST"]
+
+// console.log(dirReduc(['NORTH', 'SOUTH', 'EAST', 'WEST', 'EAST', 'WEST']));
+// // []
+
+console.log(
+  dirReduc(['WEST', 'EAST', 'SOUTH', 'NORTH', 'WEST', 'NORTH', 'EAST', 'WEST', 'SOUTH', 'NORTH'])
+);
