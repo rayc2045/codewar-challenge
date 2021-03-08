@@ -25,35 +25,35 @@ Sample Tests:
 ### Solution
 
 ```js
-function zero(operation) {
-  return operation ? operation.call(operation, 0) : 0;
+function zero(func) {
+  return func ? func(0) : 0; // func.call(func, 0)
 }
-function one(operation) {
-  return operation ? operation.call(operation, 1) : 1;
+function one(func) {
+  return func ? func(1) : 1;
 }
-function two(operation) {
-  return operation ? operation.call(operation, 2) : 2;
+function two(func) {
+  return func ? func(2) : 2;
 }
-function three(operation) {
-  return operation ? operation.call(operation, 3) : 3;
+function three(func) {
+  return func ? func(3) : 3;
 }
-function four(operation) {
-  return operation ? operation.call(operation, 4) : 4;
+function four(func) {
+  return func ? func(4) : 4;
 }
-function five(operation) {
-  return operation ? operation.call(operation, 5) : 5;
+function five(func) {
+  return func ? func(5) : 5;
 }
-function six(operation) {
-  return operation ? operation.call(operation, 6) : 6;
+function six(func) {
+  return func ? func(6) : 6;
 }
-function seven(operation) {
-  return operation ? operation.call(operation, 7) : 7;
+function seven(func) {
+  return func ? func(7) : 7;
 }
-function eight(operation) {
-  return operation ? operation.call(operation, 8) : 8;
+function eight(func) {
+  return func ? func(8) : 8;
 }
-function nine(operation) {
-  return operation ? operation.call(operation, 9) : 9;
+function nine(func) {
+  return func ? func(9) : 9;
 }
 
 function plus(x) {
