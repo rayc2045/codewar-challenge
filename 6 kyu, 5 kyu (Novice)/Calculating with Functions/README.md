@@ -77,3 +77,14 @@ function dividedBy(x) {
   };
 }
 ```
+```js
+seven(times(five()))
+
+seven(times(5))
+
+seven(function(y) {
+  return y * 5
+})
+
+return 7 * 5
+```
