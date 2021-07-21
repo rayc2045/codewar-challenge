@@ -1,6 +1,6 @@
 # Codewars Challenge
 
-[![Photo](https://raw.githubusercontent.com/rayc2045/codewar-challenge/master/cover.png)](https://www.codewars.com/)
+![Photo](https://raw.githubusercontent.com/rayc2045/codewar-challenge/master/cover.png)
 
 ### What is Codewars?
 
